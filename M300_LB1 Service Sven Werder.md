@@ -4,7 +4,7 @@
 Auf einem Ubuntu Server ein Wordpress installieren.
 Benötigte Sotware: Apache, Mysql, PHP + Wordpress
 
-## Installation:
+## Installation (was passiert):
 Über das Vagrantfile wird die Virtuelle Maschine installiert.
 In der Vagrant shell wird das Skript "script.sh" ausgeführt.
 Dieses Skript installiert Apache, Mysql, PHP und Wordpress. Dabei wird auch das Tastaturlayout auf Schweizerdeutsch gestellt.
@@ -14,6 +14,9 @@ Das Skript erstellt den **Benutzer: svewer** mit dem **Passwort: sve_wer1**
 Das Skript erstellt **die Datenbank: wordpress** und den **Datenbankbenutzer: wordpressuser** mit dem **Passwort: password**
 
 **Achtung! : Die Datei shell.sh muss sich im gleichen Verzeichnis befinden wie das Vagrantfile.**
+
+## Zugriff:
+Der Zugriff erfolgt über den Webbrowser auf die URL: http://localhost:8080
 
 ## Testen:
 Das Wordpress sollte auf der Hostmaschine über folgende URL aufgerufen werden: http://localhost:8080
