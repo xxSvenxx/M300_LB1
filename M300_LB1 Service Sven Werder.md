@@ -1,7 +1,7 @@
 # M300_LB1
 
 ## Service Beschreibung:
-Auf einem Ubuntu Server ein Wordpress installieren.
+Auf einem Ubuntu Server (Ubuntu/trusty64) ein Wordpress installieren.
 Benötigte Sotware: Apache, Mysql, PHP + Wordpress
 
 ## Installation (was passiert):
