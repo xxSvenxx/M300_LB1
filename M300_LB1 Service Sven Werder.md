@@ -9,6 +9,8 @@ Benötigte Sotware: Apache, Mysql, PHP + Wordpress
 In der Vagrant shell wird das Skript "script.sh" ausgeführt.
 Dieses Skript installiert Apache, Mysql, PHP und Wordpress. Dabei wird auch das Tastaturlayout auf Schweizerdeutsch gestellt.
 
+Das Skript erstellt die Datenbank: *wordpress* und den Datenbankbenutzer: *wordpressuser*
+
 **Achtung! : Die Datei shell.sh muss sich im gleichen Verzeichnis befinden wie das Vagrantfile.**
 
 ## Testen:
