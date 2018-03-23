@@ -16,3 +16,5 @@ Das Skript erstellt die Datenbank: *wordpress* und den Datenbankbenutzer: *wordp
 ## Testen:
 Das Wordpress sollte auf der Hostmaschine über folgende URL aufgerufen werden: http://localhost:8080
 Die Setup Konfiguration von Wordpress soll erscheinen.
+
+![wordpress](https://github.com/xxSvenxx/M300_LB1/blob/master/wordpress.PNG)
