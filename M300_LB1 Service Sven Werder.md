@@ -13,6 +13,8 @@ Das Skript erstellt den **Benutzer: svewer** mit dem **Passwort: sve_wer1**
 
 Das Skript erstellt **die Datenbank: wordpress** und den **Datenbankbenutzer: wordpressuser** mit dem **Passwort: password**
 
+Der Datenbankname, der Datenbankbenutzer und das Passwort des DBuser wird in der Datei wp-config.php eingetragen
+
 **Achtung! : Die Datei shell.sh muss sich im gleichen Verzeichnis befinden wie das Vagrantfile.**
 
 ## Zugriff:
